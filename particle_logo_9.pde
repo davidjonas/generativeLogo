@@ -123,8 +123,12 @@ void keyPressed()
     //background(0);
     //camAngle=(int )random(360);
     recreateParticles();
-  } else if(key == 'p')
+  } else if(key == 'b')
   {
-    saveFrame("logo_####.jpg");
+    saveFrame("output/BlackBg/logo_####.jpg");
+  } else if(key == 'w')
+  {
+    filter(INVERT);
+    saveFrame("output/WhiteBg/logo_####.jpg");
   }
 }
