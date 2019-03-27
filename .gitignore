@@ -1,5 +1,7 @@
 .DS_Store
 build
+output/BlackBg/*.jpg
+output/WhiteBg/*.jpg
 applet
 application.linux*
 application.linux32
